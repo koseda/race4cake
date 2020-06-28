@@ -1,0 +1,8 @@
+privileged: true
+image: 
+  file: gitpod/gitpod.Dockerfile
+tasks:
+  - init: brew install shellcheck
+vscode:
+  extensions:
+    - bungcip.better-toml@0.3.2:bHWX++/U0u3IDNSrnlEAeA==
